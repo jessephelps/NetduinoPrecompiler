@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2012 for Windows Desktop
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetduinoCar.Micro", "NetduinoCar.Micro\NetduinoCar.Micro.csproj", "{090414D0-ACD5-411A-97DA-19ED38A35F64}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetduinoCar.Controller", "NetduinoCar.Controller\NetduinoCar.Controller.csproj", "{8CEF2A1F-26CA-45A3-B11E-1A7F652B5628}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetduinoCar.MQTT", "NetduinoCar.MQTT\NetduinoCar.MQTT.csproj", "{7D027F87-CD05-463B-8BC0-B038B65FD9F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Netduino.Shared", "Netduino.Shared\Netduino.Shared.csproj", "{F07F5250-51E1-440B-AFF6-F5D51190D997}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Netduino.Micro", "Netduino.Micro\Netduino.Micro.csproj", "{6055EAA4-F907-4141-B8EB-C9C5CC5D2119}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MFConsoleApplication1", "MFConsoleApplication1\MFConsoleApplication1.csproj", "{CE82103F-6363-45D1-9EA0-1033D1DCC891}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{090414D0-ACD5-411A-97DA-19ED38A35F64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{090414D0-ACD5-411A-97DA-19ED38A35F64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{090414D0-ACD5-411A-97DA-19ED38A35F64}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{090414D0-ACD5-411A-97DA-19ED38A35F64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{090414D0-ACD5-411A-97DA-19ED38A35F64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{090414D0-ACD5-411A-97DA-19ED38A35F64}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{8CEF2A1F-26CA-45A3-B11E-1A7F652B5628}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CEF2A1F-26CA-45A3-B11E-1A7F652B5628}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CEF2A1F-26CA-45A3-B11E-1A7F652B5628}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CEF2A1F-26CA-45A3-B11E-1A7F652B5628}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D027F87-CD05-463B-8BC0-B038B65FD9F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D027F87-CD05-463B-8BC0-B038B65FD9F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D027F87-CD05-463B-8BC0-B038B65FD9F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D027F87-CD05-463B-8BC0-B038B65FD9F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F07F5250-51E1-440B-AFF6-F5D51190D997}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F07F5250-51E1-440B-AFF6-F5D51190D997}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F07F5250-51E1-440B-AFF6-F5D51190D997}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F07F5250-51E1-440B-AFF6-F5D51190D997}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6055EAA4-F907-4141-B8EB-C9C5CC5D2119}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6055EAA4-F907-4141-B8EB-C9C5CC5D2119}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6055EAA4-F907-4141-B8EB-C9C5CC5D2119}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{6055EAA4-F907-4141-B8EB-C9C5CC5D2119}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6055EAA4-F907-4141-B8EB-C9C5CC5D2119}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6055EAA4-F907-4141-B8EB-C9C5CC5D2119}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{CE82103F-6363-45D1-9EA0-1033D1DCC891}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE82103F-6363-45D1-9EA0-1033D1DCC891}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE82103F-6363-45D1-9EA0-1033D1DCC891}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{CE82103F-6363-45D1-9EA0-1033D1DCC891}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE82103F-6363-45D1-9EA0-1033D1DCC891}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE82103F-6363-45D1-9EA0-1033D1DCC891}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

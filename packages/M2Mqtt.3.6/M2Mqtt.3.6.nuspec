@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>M2Mqtt</id>
+    <version>3.6</version>
+    <title>M2Mqtt - MQTT Client Library for .Net and WinRT</title>
+    <authors>Paolo Patierno</authors>
+    <owners>Paolo Patierno</owners>
+    <licenseUrl>https://m2mqtt.codeplex.com/license</licenseUrl>
+    <projectUrl>http://m2mqtt.codeplex.com/</projectUrl>
+    <iconUrl>https://download-codeplex.sec.s-msft.com/Download?ProjectName=m2mqtt&amp;DownloadId=659281&amp;Build=20885</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>M2Mqtt is a MQTT client available for all .Net platform (.Net Framework, .Net Compact Framework and .Net Micro Framework) and WinRT platform (Windows 8.1 and Windows Phone 8.1) for M2M communication.</description>
+    <summary>M2Mqtt is a MQTT client available for all .Net platform (.Net Framework, .Net Compact Framework and .Net Micro Framework) and WinRT platform (Windows 8.1 and Windows Phone 8.1) for M2M communication.</summary>
+    <releaseNotes>1. Moved all protocol related processing from MqttClient to classes that implements IMqttNetworkChannel interface (for WinRT support);
+2. Added Fx class for framework specific methods (for WinRT support);
+3. Created new M2MqttWinRT project (under new Visual Studio 2013 solution);
+4. Implemented MqttNetworkChannel for WinRT (for WinRT support);
+5. Derived all exceptions from base class Exception and not ApplicationException (for WinRT support);
+6. Update projects with different reference to Net or WinRT folder;
+7. Released new version 3.6;</releaseNotes>
+    <copyright>Paolo Patierno Copyright 2014</copyright>
+    <tags>m2m mqtt queue messaging internetofthings iot cloud netmf embedded micro netduino micro-framework hardware winrt windows8 windows8.1 windowsphone windowsphone8.1</tags>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System" targetFramework=".NETFramework4.0" />
+      <frameworkAssembly assemblyName="System" targetFramework=".NETFramework4.5" />
+      <frameworkAssembly assemblyName="System" targetFramework=".NETMicroFramework4.2" />
+      <frameworkAssembly assemblyName="System" targetFramework=".NETMicroFramework4.3" />
+    </frameworkAssemblies>
+  </metadata>
+</package>
